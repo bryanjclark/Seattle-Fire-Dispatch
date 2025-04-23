@@ -3,7 +3,7 @@ A little SwiftUI app that shows Seattle's Fire Dispatch data in an easier-to-rea
 
 Sometimes, there is a fire engine in the distance, or lots of them - and you want to know what's going on.
 
-Seattle's fire department has a [nice little website here](http://www2.seattle.gov/fire/realtime911/getRecsForDatePub.asp?action=Today&incDate=&rad1=des) that shows all the recent fire-dispatch data for the city:
+Seattle's fire department has a [nice little website here](https://web.seattle.gov/sfd/realtime911/getRecsForDatePub.asp?action=Today&incDate=&rad1=des) that shows all the recent fire-dispatch data for the city:
 ![](screenshots/dispatch-website.png)
 
 The problem is that it's in a list that's not mobile-friendly - so I made this little iOS app, which displays the dispatch in a list view, and a map view - and it supports dark mode, too, which is nice when it's the middle of the night and you hear lots of sirens.
@@ -18,3 +18,4 @@ The problem is that it's in a list that's not mobile-friendly - so I made this l
   - Reorganize the ListView and pull types and network-fetching code out into its own file
   - Fixup the Map tab so that it prioritizes "active" cases in a better way.
   - Probably a bunch of other things, too!
+
